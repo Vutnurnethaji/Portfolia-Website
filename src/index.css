@@ -1,0 +1,10 @@
+:root{
+  --backgroundColor:white;
+  --fontColor:black;
+  --btnBackground:rgb(112, 226, 122);
+}
+body[data-theme='dark']{
+  --backgroundColor:black;
+  --fontColor:white;
+  --btnBackground:blue;
+}

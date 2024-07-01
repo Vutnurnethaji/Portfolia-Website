@@ -1,0 +1,41 @@
+h1,h2,p{
+    color: var(--fontColor);
+}
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.sunOrMoon{
+    cursor: pointer;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100dvh
+}
+.tglLinks{
+    display: flex;
+    gap: 20px;
+}
+.tglLinks img{
+    height: 40px;
+    width: 40px;
+}
+p{
+    width: 40ch;
+    text-align: center;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--btnBackground);
+    color: var(--fontColor);
+}
+.heroTop{
+    display: flex;
+    justify-content: center;
+}
