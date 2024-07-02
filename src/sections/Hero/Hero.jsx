@@ -22,8 +22,9 @@ function Hero(){
                 <img src={theme==='light'? sunPic:moonPic} alt="sunPic or MoonPic" onClick={toggleTheme}/>
             </span>
          </div>
+         <div className='heroContent'>
          <div>
-            <h1>harris johnson</h1>
+            <h1>nethaji goud</h1>
             <h2>frontend developer</h2>
          </div>
          <span className='tglLinks'>
@@ -43,6 +44,7 @@ function Hero(){
          <a href={CV} download>
             <button>Resume</button>
          </a>
+         </div>
      </section>
   )
 }

@@ -2,9 +2,11 @@
   --backgroundColor:white;
   --fontColor:black;
   --btnBackground:rgb(112, 226, 122);
+  --pImgBackground:black;
 }
 body[data-theme='dark']{
   --backgroundColor:black;
   --fontColor:white;
   --btnBackground:blue;
+  --pImgBackground:white;
 }

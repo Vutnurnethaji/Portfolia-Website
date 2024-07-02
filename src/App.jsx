@@ -1,5 +1,8 @@
 import './App.css'
+import Contact from './sections/Contact/Contact'
+import Footer from './sections/Footer/Footer'
 import Hero from './sections/Hero/Hero'
+import Skill from './sections/Skills/Skill'
 import Project from './sections/project/Project'
 
 function App() {
@@ -8,6 +11,9 @@ function App() {
     <>
        <Hero />
        <Project />
+       <Skill />
+       <Contact />
+       <Footer />
     </>
   )
 }
